@@ -15,3 +15,4 @@ cd handwriting-prediction
 pip install -r utils/requirements.txt
 ```
 
+décompressez le fichier dataset.rar avant d'exécuter le modèle
