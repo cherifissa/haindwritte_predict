@@ -12,9 +12,13 @@ Pour installer ce projet, suivez les étapes suivantes :
 
 ```bash
 git clone https://github.com/username/handwriting-prediction.git
+```
 
+```bash
 cd handwriting-prediction
+```
 
+```bash
 pip install -r utils/requirements.txt
 ```
 
