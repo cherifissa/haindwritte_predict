@@ -3,6 +3,7 @@
 ## Introduction
 
 Ce projet utilise l'intelligence artificielle pour prédire l'écriture manuscrite. Il est basé sur le jeu de données MNIST et utilise un réseau de neurones convolutif pour la prédiction.
+
 Il est recommandé d'utiliser un environnement virtuel (sous Anaconda) pour installer les bibliothèques nécessaires.
 
 ## Installation
