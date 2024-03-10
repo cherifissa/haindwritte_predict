@@ -8,7 +8,7 @@ Il est recommandé d'utiliser un environnement virtuel (sous Anaconda) pour inst
 
 ## Installation
 
-Pour installer ce projet, suivez les étapes suivantes :
+Ce projet, suivez les étapes suivantes :
 
 ```bash
 git clone https://github.com/username/handwriting-prediction.git
