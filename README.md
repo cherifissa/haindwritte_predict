@@ -14,6 +14,7 @@ Pour installer ce projet, suivez les étapes suivantes :
 git clone https://github.com/username/handwriting-prediction.git
 
 cd handwriting-prediction
+
 pip install -r utils/requirements.txt
 ```
 
