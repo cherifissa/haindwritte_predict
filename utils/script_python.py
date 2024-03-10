@@ -54,6 +54,7 @@ dossier_dest = "pred"
 
 # Créer le dossier de destination s'il n'existe pas
 if not os.path.exists(dossier_dest):
+    # Créer le dossier en dehors du dossier de travail 
     os.makedirs(dossier_dest)
 image_num = 1
 
