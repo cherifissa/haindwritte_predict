@@ -3,7 +3,7 @@ import numpy as np
 import matplotlib.pyplot as plot
 import os
 # Charger l'image
-image = cv2.imread('image.tif')
+image = cv2.imread('utils\images\image.tif')
 
 # Afficher l'image originale
 #cv2.imshow('Image originale', image)
@@ -50,7 +50,7 @@ im_bw3 = cv2.threshold(im_bw2, 0, 255, cv2.THRESH_BINARY)[1]
 # Extraction
 contours, _ = cv2.findContours(im_bw3, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)
 
-dossier_dest = "pred"
+dossier_dest = "pred_img"
 
 # Créer le dossier de destination s'il n'existe pas
 if not os.path.exists(dossier_dest):
