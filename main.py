@@ -23,6 +23,8 @@ def FirstAPI():
 def check_model_import():
     return model.summary()
 
+# uvicorn main:app --reload
+
 
 @app.post("/predict")
 # predict a image passed in the request by post method
